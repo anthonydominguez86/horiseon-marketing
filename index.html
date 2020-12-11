@@ -7,7 +7,8 @@
     <title>Horiseon</title>
  <!--website is very general rename with company name to make it more professional-->   
 </head>
-
+<!--changed header class to header-->
+<!--changed div class to nav since it is referencing the navigation of the website-->
 <body>
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
@@ -26,6 +27,8 @@
         </nav>
     </header>
     <div class="hero"></div>
+<!--changed the div class to main because it is the main part of the page-->
+<!--changed the div class to sections so I could make the CSS styling less repetative-->
     <main>
         <section>
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
@@ -49,22 +52,24 @@
             </p>
         </section>
     </main>
-    <aside class="benefits">
-        <section class="benefit-lead">
+<!--changed the div class to aside since it was at that location on the webpage-->
+<!--changed the div class to sections since they were sections of the aside which again allowed less repetative CSS styling-->
+    <aside>
+        <section>
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </section>
-        <section class="benefit-brand">
+        <section>
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </section>
-        <section class="benefit-cost">
+        <section >
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png"></img>
             <p>
@@ -72,6 +77,7 @@
             </p>
         </section>
     </aside>
+<!--changed the div class to footer since it was the footer of the page cleans up code makes a better flow-->
     <footer div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
@@ -81,3 +87,5 @@
 </body>
 
 </html>
+<!--moved around the order of the css to keep the main tag code with main and the aside tag code with aside-->
+
