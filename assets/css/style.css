@@ -3,10 +3,11 @@
     padding: 0;
     margin: 0;
 }
-
 body {
     background-color: #d9dcd6;
 }
+
+/*changed the tags noted in html to streamline the CSS below making it more SEO and better for visually impaired software to follow*/
 
 header {
     padding: 20px;
@@ -69,6 +70,8 @@ p {
     margin-left: 25px;
 }
 
+/*rearranged the code to reflect the CSS style of cascading from top to bottum grouping the header and asides together also helping with SEO*/
+
 main {
     width: 75%;
     display: inline-block;
@@ -92,6 +95,9 @@ main section h2 {
     margin-bottom: 20px;
     font-size: 36px;    
 }
+
+/*renamed all the confusing class references to aside and also renamed the sections again to DRY up CSS again helping with SEO*/
+
 aside {
     width: 20%;
     display: inline-block;
@@ -124,13 +130,15 @@ aside section img {
     max-width: 150px;
 }
 
-.footer {
+/*renamed the div class footer to footer to make it more streamlined*/
+
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
